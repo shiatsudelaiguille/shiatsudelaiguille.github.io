@@ -2350,11 +2350,11 @@ input, select, textarea {
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(144, 144, 144, 0.3);
+				background-color: rgba(200, 200, 200, 0.3);
 			}
 
 			table tbody tr:nth-child(2n) {
-				background-color: rgba(144, 144, 144, 0.5);
+				background-color: rgba(200, 200, 200, 0.6);
 			}
 
 		table td {
@@ -4006,6 +4006,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
