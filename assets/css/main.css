@@ -2363,6 +2363,7 @@ input, select, textarea {
 			font-weight: 600;
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
+			vertical-align: middle;
 		}
 
 		table thead {
@@ -2381,6 +2382,7 @@ input, select, textarea {
 				border: solid 1px #fff;
 				border-left-width: 0;
 				border-top-width: 0;
+				vertical-align: middle;
 			}
 
 				table.alt tbody tr td:first-child {
@@ -4000,6 +4002,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
