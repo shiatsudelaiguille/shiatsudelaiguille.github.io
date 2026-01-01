@@ -139,10 +139,10 @@
 									<form method="post" action="https://formspree.io/f/xwvkolnv">
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall">
-												<input type="text" name="Nom" id="Nom" value="" placeholder="Votre nom" />
+												<input type="text" name="Nom" id="Nom" value="" placeholder="Votre nom" required />
 											</div>
 											<div class="col-6 col-12-xsmall">
-												<input type="email" name="e-mail" id="e-mail" value="" placeholder="Votre e-mail" />
+												<input type="email" name="e-mail" id="e-mail" value="" placeholder="Votre e-mail" required/>
 											</div>
 											<div class="col-6 col-12-xsmall">
 												<input type="text" name="Telephone" id="Telephone" value="" placeholder="Votre numéro de téléphone" size="10" minlength="10" maxlength="12" />
@@ -152,8 +152,8 @@
 											</div>
 											
 											<div class="col-12">
-												<select name="Objet" id="Objet">
-													<option value="">Objet</option>
+												<select name="Objet" id="Objet" required>
+													<option value=""></option>
 													<option value="humain">Séance Equin</option>
 													<option value="équin">Séance Canin / Félin </option>
 													<option value="canin">Séance Humain </option>
@@ -185,7 +185,7 @@
 
 									
 											<div class="col-12">
-												<textarea name="Message" id="Message" placeholder="Décrivez ici pourquoi vous faites appel à mes services (pathologie, suivi...) N'hésitez pas à faire un historique détaillé." rows="6"></textarea>
+												<textarea name="Message" id="Message" placeholder="Décrivez ici pourquoi vous faites appel à mes services (pathologie, suivi...) N'hésitez pas à faire un historique détaillé." rows="6" required></textarea>
 											</div>
 											<div class="col-12">
 												<ul class="actions">
@@ -233,6 +233,7 @@
 	</body>
 
 </html>
+
 
 
 
